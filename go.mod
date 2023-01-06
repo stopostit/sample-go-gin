@@ -1,6 +1,5 @@
 module github.com/Scalingo/sample-go-gin
 
-// +scalingo goVersion go1.17
 go 1.19
 
 require github.com/gin-gonic/gin v1.8.2
