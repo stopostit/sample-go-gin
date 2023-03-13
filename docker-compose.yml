@@ -8,4 +8,4 @@ services:
       - 3000:3000
     environment:
       PORT: 3000
-    command: reflex -r '\.go$$' -s -- sh -c 'go install -race && /go/bin/sample-go-gin'
+    command: reflex -r '\.go$$' -s -- sh -c 'go install -buildvcs=false -race && /go/bin/sample-go-gin'
