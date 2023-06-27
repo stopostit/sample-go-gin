@@ -26,4 +26,3 @@ docker-compose up
 The app listens by default on the port 3000 or the one defined in the `PORT`
 environment variable.
 
-Wow much go, very nice
